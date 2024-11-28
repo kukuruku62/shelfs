@@ -1,0 +1,37 @@
+<svg width="65.000000" height="54.000000" viewBox="0 0 65 54" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_50_13_dd" x="10.000000" y="1.000000" width="59.000000" height="60.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="6" dy="2"/>
+			<feGaussianBlur stdDeviation="2.66667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip50_12">
+			<rect id="кружка" width="65.000000" height="54.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="кружка" width="65.000000" height="54.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip50_12)">
+		<g filter="url(#filter_50_13_dd)">
+			<path id="Прямоугольник 24" d="M12.1 7C12.1 7 22.87 12.35 33.22 12.35C36.92 12.35 40.09 12.41 43.32 11.62C49.12 10.18 54.15 7 54.15 7C54.15 7 56.19 26.56 53.93 36.65C51.86 45.89 50.1 51 43.32 51C28.82 51 40.99 51 25.46 51C9.93 51 12.1 7 12.1 7Z" fill="#365770" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<path id="Линия 18" d="M51.57 14.58C51.57 14.58 53.12 22.94 52.62 30.73C52.12 38.52 49.13 46.63 49.13 46.63" stroke="#7E5B6D" stroke-opacity="1.000000" stroke-width="0.700000"/>
+		<path id="Линия 18" d="M42.98 15.49C42.98 15.49 44.35 23.73 44.39 31.53C44.43 39.33 42.9 47.63 42.9 47.63" stroke="#7E5B6D" stroke-opacity="1.000000" stroke-width="0.700000"/>
+		<path id="Линия 18" d="M32.55 15.86C32.55 15.86 32.51 24.05 33.47 31.67C34.43 39.3 36.7 47.27 36.7 47.27" stroke="#7E5B6D" stroke-opacity="1.000000" stroke-width="0.700000"/>
+		<path id="Линия 18" d="M23.95 14.08C23.95 14.08 23.69 22.78 24.7 30.87C25.71 38.95 28.34 47.37 28.34 47.37" stroke="#7E5B6D" stroke-opacity="1.000000" stroke-width="0.700000"/>
+		<path id="Эллипс 9" d="M12.18 7.72C10.37 6.12 22.36 2 33.65 2C44.94 2 55.82 5.74 53.74 7.85C53.74 8.73 45.98 13 34.69 13C23.4 13 12.18 8.61 12.18 7.72Z" fill="#4F4040" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Эллипс 9" d="M33.65 2C44.94 2 55.82 5.74 53.74 7.85C53.74 8.73 45.98 13 34.69 13C23.4 13 12.18 8.61 12.18 7.72C10.37 6.12 22.36 2 33.65 2Z" stroke="#959595" stroke-opacity="1.000000" stroke-width="0.600000"/>
+		<path id="Линия 17" d="M29.62 7.45C29.62 7.45 28.03 7.51 26.73 8C25.42 8.5 24.41 9.43 24.41 9.43" stroke="#959595" stroke-opacity="1.000000" stroke-width="0.300000"/>
+		<path id="Линия 17" d="M28.46 6.5C28.46 6.5 26.48 6.67 24.82 7.3C23.16 7.93 21.82 9.02 21.82 9.02" stroke="#959595" stroke-opacity="1.000000" stroke-width="0.300000"/>
+		<path id="Прямоугольник 25" d="M5.77 15.31C14.06 12.76 14.08 14.83 7.59 16.05C1.11 17.28 3.52 37.17 11.49 39.92C19.45 42.67 16.42 43.5 9.41 40.41C2.39 37.33 -2.52 17.87 5.77 15.31Z" fill="#365770" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<line id="Линия 17" x1="28.521484" y1="4.556274" x2="28.521484" y2="4.556274" stroke="#959595" stroke-opacity="1.000000" stroke-width="0.300000"/>
+		<line id="Линия 18" x1="16.485352" y1="10.840088" x2="16.485352" y2="10.840088" stroke="#7E5B6D" stroke-opacity="1.000000" stroke-width="0.700000"/>
+	</g>
+</svg>
