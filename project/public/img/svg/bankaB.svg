@@ -1,0 +1,77 @@
+<svg width="32.000000" height="47.000000" viewBox="0 0 32 47" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_70_213_dd" x="-0.152100" y="3.849792" width="34.303467" height="45.300232" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="4" dy="0"/>
+			<feGaussianBlur stdDeviation="1"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_70_248_dd" x="0.000000" y="-3.000000" width="34.000000" height="17.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="4" dy="0"/>
+			<feGaussianBlur stdDeviation="1"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip70_212">
+			<rect id="банка5" width="32.000000" height="47.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="банка5" width="32.000000" height="47.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip70_212)">
+		<g filter="url(#filter_70_213_dd)">
+			<path id="Прямоугольник 32" d="M1.05 7.1C1.71 9.43 7.34 10.99 13.64 10.99C19.93 10.99 25.57 9.43 26.23 7.1C26.89 4.77 27.55 42.88 26.23 43.66C24.91 44.44 21.26 46 14.97 46C8.67 46 3.04 45.22 1.05 43.66C-0.94 42.11 0.38 4.77 1.05 7.1Z" fill="#2D5F52" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Прямоугольник 32" d="M26.23 43.66C24.91 44.44 21.26 46 14.97 46C8.67 46 3.04 45.22 1.05 43.66C-0.94 42.11 0.38 4.77 1.05 7.1C1.71 9.43 7.34 10.99 13.64 10.99C19.93 10.99 25.57 9.43 26.23 7.1C26.89 4.77 27.55 42.88 26.23 43.66Z" stroke="#444343" stroke-opacity="1.000000" stroke-width="0.300000"/>
+		</g>
+		<ellipse id="Эллипс 15" cx="5.305664" cy="41.351196" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="19.750000" cy="31.317078" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="22.157471" cy="38.199951" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="14.379883" cy="41.351196" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="4.009277" cy="35.048767" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="23.453613" cy="28.746338" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="20.861084" cy="24.019470" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="18.916748" cy="27.170715" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="1.416748" cy="25.595093" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="2.713135" cy="19.292664" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="17.250000" cy="34.634094" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="5.305664" cy="30.321899" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="23.453613" cy="17.717041" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="23.453613" cy="11.414612" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="18.268555" cy="11.414612" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="12.250000" cy="14.731689" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="7.898193" cy="12.990234" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="2.713135" cy="11.414612" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="13.083496" cy="37.121948" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="9.750000" cy="43.756042" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="17.250000" cy="44.585327" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="23.083496" cy="42.926819" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="8.916748" cy="37.951172" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="17.250000" cy="37.951172" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="25.583496" cy="33.804871" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="24.750000" cy="23.853638" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="8.083496" cy="18.048767" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="2.250000" cy="33.804871" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="3.916748" cy="39.609741" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="6.416748" cy="25.512146" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="3.916748" cy="16.390198" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="22.250000" cy="14.731689" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<ellipse id="Эллипс 15" cx="17.250000" cy="15.560974" rx="0.416667" ry="0.414634" fill="#9FCA91" fill-opacity="1.000000"/>
+		<g filter="url(#filter_70_248_dd)">
+			<path id="Эллипс 14" d="M0.09 7.07C0.09 5.67 -0.81 3.05 2.91 2.35C4.98 1.96 10.81 3.14 13.46 3.14C20.84 3.14 28.23 6.1e-5 26.82 7.07C26.82 9.24 20.84 11 13.46 11C6.08 11 0.09 9.24 0.09 7.07Z" fill="#584C12" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Эллипс 14" d="M26.82 7.07C26.82 9.24 20.84 11 13.46 11C6.08 11 0.09 9.24 0.09 7.07C0.09 6.85 0.07 6.61 0.05 6.36C-0.08 4.92 -0.25 2.94 2.91 2.35C4.12 2.12 6.62 2.43 9.01 2.73C10.71 2.94 12.36 3.14 13.46 3.14C15.33 3.14 17.2 2.94 18.92 2.75C24.02 2.2 27.87 1.79 26.82 7.07ZM26.52 7.04L26.52 7.07L26.52 7.07Q26.52 7.71 25.6 8.35Q24.63 9.03 22.82 9.56Q21 10.09 18.62 10.39Q16.16 10.7 13.46 10.7Q10.76 10.7 8.29 10.39Q5.92 10.09 4.09 9.56Q2.29 9.03 1.31 8.35Q0.39 7.71 0.39 7.07L0.39 7.07Q0.39 6.84 0.35 6.33Q0.32 5.97 0.31 5.78Q0.29 5.47 0.3 5.22Q0.32 4.6 0.52 4.16Q0.58 4.04 0.65 3.92Q0.88 3.55 1.28 3.27Q1.91 2.84 2.96 2.65Q3.73 2.5 5.49 2.64Q6.2 2.7 7.18 2.81Q7.77 2.88 8.97 3.02Q10.66 3.23 11.43 3.31Q12.71 3.44 13.46 3.44Q14.71 3.44 16.27 3.31Q17.19 3.24 18.95 3.05Q20.21 2.91 20.79 2.86Q21.76 2.77 22.46 2.75Q24.15 2.7 25.08 3.01Q25.59 3.18 25.93 3.46Q26.04 3.55 26.13 3.66Q26.34 3.9 26.47 4.2Q26.89 5.19 26.53 7.01L26.52 7.04Z" fill="#444443" fill-opacity="0.285714" fill-rule="evenodd"/>
+			<ellipse id="Эллипс 14" cx="13.461670" cy="3.928467" rx="13.364669" ry="3.928481" fill="#584C12" fill-opacity="1.000000"/>
+			<ellipse id="Эллипс 14" cx="13.461670" cy="3.928467" rx="13.214669" ry="3.778481" stroke="#444443" stroke-opacity="0.285714" stroke-width="0.300000"/>
+		</g>
+		<path id="b" d="M9.66 29.96Q10.07 29.74 10.34 29.28Q10.58 29.5 10.91 29.66Q11.12 29.77 11.35 29.85Q12.17 30.16 13.11 30.16Q14.75 30.16 16.01 29.47Q16.69 29.09 17.26 28.52Q17.79 28 18.15 27.37Q18.9 26.06 18.9 24.32Q18.9 22.2 17.88 20.85Q17.66 20.57 17.4 20.32Q16.85 19.79 16.2 19.45Q15.09 18.88 13.68 18.88Q12.66 18.88 11.84 19.27Q11.29 19.54 10.83 19.97L10.83 13.9Q10.83 13.28 10.52 13.03Q10.33 12.87 10 12.87Q9.72 12.87 9.46 12.93Q9.3 12.96 9.15 13.01Q8.74 13.14 7.96 13.21Q7.16 13.29 6.91 13.7Q6.8 13.89 6.8 14.14Q6.8 14.39 6.92 14.57Q6.98 14.67 7.07 14.74Q7.08 14.75 7.09 14.76Q7.36 14.96 7.77 14.96L8.68 14.83Q8.76 14.83 8.82 14.86Q8.86 14.89 8.9 14.93Q8.97 15.04 8.97 15.46L8.97 25.75Q8.97 27.21 8.85 27.71Q8.8 27.94 8.67 28.13Q8.53 28.35 8.3 28.5Q8.01 28.69 7.91 28.96Q7.87 29.09 7.87 29.24Q7.87 29.67 8.08 29.89Q8.32 30.16 8.85 30.16Q9.31 30.16 9.66 29.96ZM11.29 27.97Q11.03 27.83 10.8 27.64Q10.83 27.34 10.83 26.98L10.83 21.86Q11.41 21.19 12.14 20.88Q12.77 20.62 13.5 20.62Q14.61 20.62 15.4 21.11Q15.76 21.34 16.06 21.66Q16.12 21.73 16.18 21.81Q17.01 22.83 17.01 24.51Q17.01 25.91 16.36 26.86Q16.17 27.15 15.92 27.39Q15.33 27.97 14.62 28.23Q14.02 28.46 13.33 28.46Q12.18 28.46 11.29 27.97Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

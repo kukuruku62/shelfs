@@ -1,0 +1,47 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.desk {
+  position: relative;
+  height: 100px;
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  box-shadow: 0 -4px 3px rgba(0, 0, 0, 0.3); /* Тень сверху */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.777), rgba(255, 255, 255, 0.5)),
+    url("../../../public/img/textura2.jpg");
+  background-repeat: repeat-x;
+  border-bottom: 10px solid rgb(166, 166, 166); /* Высота и цвет кромки */
+
+  .fruits {
+    // width: 50px;
+    height: 80%;
+    position: absolute;
+    top: -50%;
+    right: 0;
+  }
+
+  .toster {
+    width: 9%;
+    height: auto;
+    position: absolute;
+    top: -60%;
+    left: 10%;
+  }
+
+  .cup {
+    // width: 50px;
+    height: 50%;
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+  }
+}
+
+
+// .pictureFasede {
+//   height: 100px;
+//   width: 50%;
+// }

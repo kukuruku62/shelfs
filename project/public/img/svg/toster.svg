@@ -1,0 +1,68 @@
+<svg width="258.000000" height="122.000000" viewBox="0 0 258 122" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_46_7_dd" x="5.287354" y="-7.000000" width="254.425171" height="124.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="7" dy="3"/>
+			<feGaussianBlur stdDeviation="3.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_46_2_dd" x="-0.805420" y="10.000000" width="266.610718" height="120.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="7" dy="3"/>
+			<feGaussianBlur stdDeviation="3.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_46_3_dd" x="40.000000" y="117.000000" width="18.000000" height="13.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_46_4_dd" x="185.000000" y="117.000000" width="18.000000" height="13.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip46_1">
+			<rect id="тостер" width="258.000000" height="122.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="тостер" width="258.000000" height="122.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip46_1)">
+		<g filter="url(#filter_46_7_dd)">
+			<path id="Прямоугольник 22" d="M49 0L201.99 0C215.25 0 226.82 8.99 230.09 21.84L241.8 67.84C246.46 86.18 232.61 104 213.69 104L37.3 104C18.38 104 4.53 86.18 9.19 67.84L20.9 21.84C24.17 8.99 35.74 0 49 0Z" fill="#959595" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<path id="Линия 16" d="M141 10L202 10" stroke="#E7E6E6" stroke-opacity="1.000000" stroke-width="5.000000" stroke-linecap="round"/>
+		<g filter="url(#filter_46_2_dd)">
+			<path id="Прямоугольник 22" d="M42.94 17L208.05 17C221.06 17 232.48 25.66 235.98 38.19L247.71 80.19C252.88 98.68 238.98 117 219.78 117L31.21 117C12.01 117 -1.89 98.68 3.28 80.19L15.01 38.19C18.51 25.66 29.93 17 42.94 17Z" fill="#99D0D6" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<g filter="url(#filter_46_3_dd)">
+			<rect id="Прямоугольник 23" x="44.000000" y="117.000000" width="10.000000" height="5.000000" fill="#505050" fill-opacity="1.000000"/>
+		</g>
+		<g filter="url(#filter_46_4_dd)">
+			<rect id="Прямоугольник 23" x="189.000000" y="117.000000" width="10.000000" height="5.000000" fill="#505050" fill-opacity="1.000000"/>
+		</g>
+		<path id="SMEG" d="M112.13 57.95Q112.92 58.14 113.75 58.14Q114.9 58.14 115.71 57.79Q116.51 57.44 116.91 56.85Q117.11 56.56 117.21 56.23Q117.32 55.9 117.32 55.53Q117.32 54.76 116.94 54.28Q116.91 54.24 116.88 54.2Q116.65 53.94 116.37 53.76Q116.12 53.59 115.83 53.48Q115.22 53.25 114.26 53.03Q113.33 52.82 112.88 52.61Q112.6 52.48 112.49 52.26Q112.43 52.13 112.43 51.97Q112.43 51.79 112.49 51.65Q112.59 51.43 112.82 51.27Q113.21 51.01 114.03 51.01L114.05 51.01Q115.2 51.02 116.36 51.67L116.96 50.2Q116.38 49.84 115.61 49.65Q115.45 49.6 115.29 49.57Q114.67 49.45 114.04 49.45Q112.89 49.45 112.09 49.8Q111.29 50.15 110.89 50.74Q110.73 50.99 110.63 51.27Q110.5 51.65 110.5 52.07Q110.5 52.84 110.87 53.33Q110.9 53.37 110.94 53.41Q111.2 53.71 111.52 53.91Q111.74 54.05 111.99 54.14Q112.6 54.37 113.56 54.6Q114.18 54.74 114.55 54.86Q114.91 54.98 115.15 55.18Q115.27 55.29 115.33 55.42Q115.38 55.54 115.38 55.68Q115.38 55.83 115.33 55.96Q115.24 56.18 114.99 56.33Q114.59 56.58 113.76 56.58Q113.02 56.58 112.27 56.34Q111.53 56.1 110.99 55.7L110.33 57.17Q110.89 57.6 111.82 57.87Q111.98 57.91 112.13 57.95ZM151.59 53.66L149.81 53.66L149.81 56.12Q149.74 56.16 149.67 56.19Q149.06 56.48 148.3 56.48Q147.56 56.48 146.98 56.19Q146.93 56.17 146.89 56.14Q146.57 55.96 146.32 55.71Q146.09 55.48 145.92 55.19Q145.88 55.12 145.85 55.04Q145.57 54.49 145.57 53.79Q145.57 53.07 145.87 52.49Q145.89 52.44 145.92 52.39Q146.09 52.09 146.33 51.86Q146.57 51.62 146.89 51.44Q146.9 51.44 146.91 51.44Q147.53 51.11 148.32 51.11Q148.91 51.11 149.42 51.31Q150.01 51.54 150.5 52.05L151.74 50.9Q151.55 50.68 151.34 50.5Q150.85 50.08 150.23 49.82Q149.33 49.45 148.23 49.45Q147.03 49.45 146.04 49.92Q145.94 49.96 145.85 50.01Q145.21 50.35 144.73 50.85Q144.43 51.17 144.2 51.56Q144.07 51.78 143.97 52.01Q143.61 52.82 143.61 53.79Q143.61 54.76 143.96 55.57Q144.07 55.81 144.2 56.03Q144.45 56.44 144.77 56.78Q145.23 57.25 145.84 57.58Q145.94 57.64 146.05 57.69Q147.01 58.14 148.19 58.14Q148.35 58.14 148.51 58.13Q149.26 58.09 150 57.86Q150.9 57.59 151.59 57.07L151.59 53.66ZM128.28 52.96L128.29 58L130.12 58L130.09 49.6L128.5 49.6L125.4 54.82L122.26 49.6L120.65 49.6L120.65 58L122.47 58L122.47 53.06L124.93 57.11L125.81 57.11L128.28 52.96ZM140.61 58L140.61 56.44L136.04 56.44L136.04 54.49L139.94 54.49L139.94 52.98L136.04 52.98L136.04 51.15L140.46 51.15L140.46 49.6L134.11 49.6L134.11 58L140.61 58Z" fill="#FFF79A" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<line id="Линия 16" x1="47.000000" y1="10.000000" x2="108.000000" y2="10.000000" stroke="#E7E6E6" stroke-opacity="1.000000" stroke-width="5.000000"/>
+	</g>
+</svg>
