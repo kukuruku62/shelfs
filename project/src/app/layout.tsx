@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 
-import {inter, oldenburg} from "./fonts"
+import { oldenburg} from "./fonts"
 import "normalize.css";
 import "./globals.css";
 
 import { Header } from "@/components/header/header";
-import { Footer } from "@/components/footer/footer";
 
 
 export const metadata: Metadata = {
@@ -23,7 +22,6 @@ export default function RootLayout({
       <body className={oldenburg.className}>
         <Header />
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

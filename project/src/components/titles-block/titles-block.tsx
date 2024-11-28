@@ -1,35 +1,11 @@
 "use server";
 
 import Image from "next/image";
-import picture from "../../../public/img/shelf-zel.png";
 import pictureRedact from "../../../public/img/shelf-zel-redakt.webp";
 import pictureTable from "../../../public/img/svg/tablichka-pod-polku.svg";
-import handMadePicture from "../../../public/img/hand.png";
-import flagPicture from "../../../public/img/sk.webp";
-import sizesPicture from "../../../public/img/measuring-tape.png";
 
-import pictureShelfFirst from "../../../public/img/shelf1.webp";
-import pictureShelfFirstRes from "../../../public/img/shelf1-res.png";
 
-import pictureShelfSecond from "../../../public/img/shelf2.webp";
-import pictureShelfSecondRes from "../../../public/img/shelf2-res.png";
 
-import pictureShelfThird from "../../../public/img/shelf3.webp";
-import pictureShelfThirdRes from "../../../public/img/shelf3-res.png";
-
-import pictureShelfFourth from "../../../public/img/shelf4.webp";
-import pictureShelfFifth from "../../../public/img/shelf5.webp";
-
-import pictureShelfSixth from "../../../public/img/shelf6.webp";
-import pictureShelfSixthRes from "../../../public/img/shelf6-res.png";
-
-import pictureShelfSeventh from "../../../public/img/shelf7.webp";
-import pictureShelfSeventhRes from "../../../public/img/shelf7-res.png";
-
-import pictureShelfSEigthRes from "../../../public/img/shelf8-res.png";
-
-import pictureTools from "../../../public/img/svg/tools.svg";
-import picturePodves from "../../../public/img/svg/podves.svg";
 import pictureBankaShigh from "../../../public/img/svg/bankaShigh.svg";
 import pictureBankaY from "../../../public/img/svg/bankaY.svg";
 import pictureBankaR from "../../../public/img/svg/bankaR.svg";

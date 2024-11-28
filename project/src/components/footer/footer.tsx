@@ -19,8 +19,8 @@ export async function Footer() {
         <div className={styles.content}>
 
         </div>
-        {/* <Image alt="" src={pictureFasade} className={styles.pictureFasede} />
-        <Image alt="" src={pictureFasade} className={styles.pictureFasede} /> */}
+        <Image alt="" src={pictureFasade} className={styles.pictureFasede} />
+        <Image alt="" src={pictureFasade} className={styles.pictureFasede} />
       </div>
 
       {/* <div className={styles.fasades}></div> */}
