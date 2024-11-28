@@ -1,56 +1,45 @@
 .header {
-  width: 100%;
-  display: flex;
-  position: relative;
-  background-color: white;
-
-  &:after {
-    content: "";
-    height: 5px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(180deg, #d6d5c1e5, #fffde8e5);
-  }
+  height: max-content;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 20px;
 
+  .content {
+    nav {
+      ul {
+        height: min-content;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
 
-  .list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 40px;
-    
+        li {
+          .link {
+            position: relative;
+            display: block;
 
-   a {
-      color: rgba(36, 30, 26, 0.907);
-      font-weight: 700;
-      font-size: 16px;
+            .nameLink {
+              position: absolute;
+              bottom: 8px;
+              left: 35%;
+              font-weight: 600;
+              color: rgb(61, 61, 61);
+              font-size: clamp(12px, 16px, 18px);
+
+              @media (max-width: 480px) {
+                bottom: 5px;
+              }
+            }
+
+            .pictureFasade {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
     }
   }
-
-
-  // .content {
-  //   width: 100%;
-  //   display: flex;
-  //   padding: 30px 20px;
-  //   align-items: center;
-  //   justify-content: space-between;
-
-  //   .list {
-  //     display: flex;
-  //     align-items: center;
-  //     justify-content: space-between;
-
-  //     .rightPart {
-  //       display: flex;
-  //       column-gap: 20px;
-  //     }
-  //   }
-  // }
 }
