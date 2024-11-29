@@ -5,7 +5,9 @@ import pictureRedact from "../../../public/img/shelf-zel-redakt.webp";
 import pictureTable from "../../../public/img/svg/tablichka-pod-polku.svg";
 
 
-
+import pictureTools from "../../../public/img/svg/tools.svg";
+import picturePodves from "../../../public/img/svg/podves.svg";
+import pictureBankaVhigh from "../../../public/img/svg/bankaVhigh.svg";
 import pictureBankaShigh from "../../../public/img/svg/bankaShigh.svg";
 import pictureBankaY from "../../../public/img/svg/bankaY.svg";
 import pictureBankaR from "../../../public/img/svg/bankaR.svg";
@@ -16,7 +18,6 @@ import pictureBankaN from "../../../public/img/svg/bankaN.svg";
 import pictureBankaE2 from "../../../public/img/svg/bankaE2.svg";
 import pictureBankaN2 from "../../../public/img/svg/bankaN2.svg";
 import pictureBankaA from "../../../public/img/svg/bankaA.svg";
-import pictureBankaS from "../../../public/img/svg/bankaS.svg";
 import pictureBankaL from "../../../public/img/svg/bankaL.svg";
 import pictureBankaV from "../../../public/img/svg/bankaV.svg";
 import pictureBankaSshort from "../../../public/img/svg/bankaSshort.svg";
@@ -25,7 +26,7 @@ import pictureBankaU from "../../../public/img/svg/bankaU.svg";
 
 import pictureBankaKrugR from "../../../public/img/svg/Banka-krugR.svg";
 import pictureBankaKrugU from "../../../public/img/svg/Banka-krugU.svg";
-import pictureBankaKrugC from "../../../public/img/svg/Banka-krugč.svg";
+import pictureBankaKrugC from "../../../public/img/svg/Banka-krugC.svg";
 import pictureBankaKrugN from "../../../public/img/svg/Banka-krugN.svg";
 import pictureBankaKrugA from "../../../public/img/svg/Banka-krugA.svg";
 import pictureBankaKrugV from "../../../public/img/svg/Banka-krugV.svg";
@@ -43,14 +44,13 @@ export async function TitlesBlock() {
     <section>
       <div className={styles.container}>
         <div className={styles.content}>
-          {/* <Image src={pictureTools} className={styles.toolsImg} alt="" />
-          <Image src={picturePodves} className={styles.podvesImg} alt="" /> */}
-          {/* <Image src={pictureBanka} className={styles.bankaImg} alt="" />
-          <Image src={pictureBanka2} className={styles.banka2Img} alt="" /> */}
+          {/* <Image src={pictureTools} className={styles.toolsImg} alt="" /> */}
+          {/* <Image src={picturePodves} className={styles.podvesImg} alt="" /> */}
+
           <div className={styles.leftPart}>
             <h1 className={styles.title}>Drevené police do kuchyne</h1>
             <div className={styles.holderImagesTop}>
-              <Image src={pictureBankaShigh} className={styles.bankaImg} alt="" />
+              <Image src={pictureBankaVhigh} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaY} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaR} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaO} className={styles.bankaImg} alt="" />
@@ -62,7 +62,7 @@ export async function TitlesBlock() {
               <Image src={pictureBankaN2} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaA} className={styles.bankaImg} alt="" />
 
-              <Image src={pictureBankaS} className={styles.bankaImg} alt="" />
+              <Image src={pictureBankaShigh} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaL} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaO} className={styles.bankaImg} alt="" />
               <Image src={pictureBankaV} className={styles.bankaImg} alt="" />
