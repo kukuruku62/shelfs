@@ -5,8 +5,8 @@ import pictureRedact from "../../../public/img/shelf-zel-redakt.webp";
 import pictureTable from "../../../public/img/svg/tablichka-pod-polku.svg";
 
 
-import pictureTools from "../../../public/img/svg/tools.svg";
-import picturePodves from "../../../public/img/svg/podves.svg";
+// import pictureTools from "../../../public/img/svg/tools.svg";
+// import picturePodves from "../../../public/img/svg/podves.svg";
 import pictureBankaVhigh from "../../../public/img/svg/bankaVhigh.svg";
 import pictureBankaShigh from "../../../public/img/svg/bankaShigh.svg";
 import pictureBankaY from "../../../public/img/svg/bankaY.svg";
