@@ -1,0 +1,24 @@
+.spinnerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Высота для центрирования, например, на всю высоту экрана */
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.1); /* Тонкая граница */
+  border-top: 5px solid #000; /* Верхняя часть будет окрашена */
+  border-radius: 50%; /* Круг */
+  animation: spin 1s linear infinite; /* Анимация */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

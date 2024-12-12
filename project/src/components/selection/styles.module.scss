@@ -1,0 +1,41 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 20px;
+
+  @media (max-width: 480px) {
+    padding: 50px 10px;
+  }
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.listContainer > li {
+  display: block;
+  & > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-size: 32px;
+    }
+
+    .pictureContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > .picture {
+        max-width: 50%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+}
