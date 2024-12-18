@@ -34,18 +34,6 @@ export async function TitlesBlock({ title, subtitleFirst, subtitleSecond }: Titl
               <Subtitle text={subtitleFirst} variant="top" />
               <Subtitle text={subtitleSecond} variant="middle" />
             </div>
-
-            {/* <ul>
-              <li>
-                <p className={styles.subtitle}>Vyrobené na Slovensku</p>
-              </li>
-              <li>
-                <p className={styles.subtitle}>Ručná výroba</p>
-              </li>
-              <li>
-                <p className={styles.subtitle}>Podľa vašich rozmerov</p>
-              </li>
-            </ul> */}
           </div>
           <div className={styles.rightPart}>
             <Link href={""} className={styles.linkRightPart}>

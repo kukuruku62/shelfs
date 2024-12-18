@@ -1,17 +1,23 @@
 
+import { use } from "react";
 import {setRequestLocale} from 'next-intl/server';
-import { Locale } from "@/i18n/routing";
+// import { Locale } from "@/i18n/routing";
 import { Selection } from "@/components/selection/selection";
 import styles from "./styles.module.scss";
 import { TitlesBlock } from "@/components/titles-block/titles-block";
 import { useTranslations } from "next-intl";
 
 type Props = {
-  params: {locale: string};
+  params: Promise<{locale: string}>;
 };
 
 
-export default function HomePage({ params: { locale } }: Props) {
+export default function HomePage(props: Props) {
+  const params = use(props.params);
+
+  const {
+    locale
+  } = params;
 
   setRequestLocale(locale);
 

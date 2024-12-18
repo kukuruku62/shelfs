@@ -5,5 +5,8 @@
       "first": "Hergestellt in der Slowakei",
       "second": "Handarbeit"
     }
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
   }
 }
