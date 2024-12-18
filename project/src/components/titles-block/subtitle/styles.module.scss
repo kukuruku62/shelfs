@@ -1,0 +1,213 @@
+.shelfImageTop,
+.shelfImageMiddle {
+  width: 105%;
+  max-width: 105%;
+  height: 62px;
+  background-size: contain;
+  background-image: url("../../../../public/img/svg/shelfLarge.svg");
+  background-repeat: no-repeat;
+
+  @media (max-width: 580px) {
+    position: absolute;
+    height: 50px;
+    width: 107%;
+    max-width: 107%;
+  }
+}
+
+.shelfImageTop {
+  @media (max-width: 580px) {
+    background-image: url("../../../../public/img/svg/shelfUnderJarsSmallFirstVariant.svg");
+    top: 70%;
+  }
+}
+
+.shelfImageMiddle {
+  @media (max-width: 580px) {
+    background-image: url("../../../../public/img/svg/shelfUnderJarsSmallSecondVariant.svg");
+    top: 85%;
+  }
+}
+
+.subtitleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .subtitle {
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 580px) {
+      font-size: 16px;
+    }
+
+    .upperLetter {
+      color: rgb(225, 225, 225);
+      position: relative;
+      padding: 10px 6px;
+      margin-right: 1px;
+      z-index: 2;
+
+      &:before {
+        content: "";
+        position: absolute;
+        background-image: url("/img/svg/bankaLarge.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 32px;
+        height: 56px;
+        bottom: 8%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+
+        @media (max-width: 768px) {
+          width: 28px;
+          height: 50px;
+        }
+
+        @media (max-width: 580px) {
+          width: 20px;
+          height: 40px;
+          bottom: 12%;
+        }
+      }
+    }
+
+    @for $i from 1 through 9 {
+      span:nth-of-type(8n + #{$i}).lowerLetter {
+        color: rgb(225, 225, 225);
+        position: relative;
+        padding: 4px 8px;
+        margin-right: 0;
+        z-index: 2;
+
+        @media (max-width: 768px) {
+          padding: 4px 7px;
+        }
+
+        @media (max-width: 580px) {
+          padding: 4px 3.7px;
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          background-image: url("/img/svg/bankiTopLevel/banka#{$i}NoText.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 32px;
+          height: 46px;
+          bottom: -5%;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: -1;
+
+          @media (max-width: 768px) {
+            width: 25px;
+            height: 38px;
+          }
+
+          @media (max-width: 580px) {
+            width: 16px;
+            height: 34px;
+          }
+        }
+      }
+    }
+  }
+
+  .upperLetter2 {
+    color: rgb(225, 225, 225);
+    position: relative;
+    padding: 10px 6px;
+    margin-right: 10px;
+    z-index: 2;
+
+    @media (max-width: 768px) {
+      margin-right: 13px;
+    }
+
+    @media (max-width: 580px) {
+      margin-right: 7px;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      background-image: url("/img/svg/bankaCircleLarge.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50px;
+      height: 55px;
+      bottom: 8%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+
+      @media (max-width: 768px) {
+        width: 52px;
+        height: 57px;
+      }
+
+      @media (max-width: 580px) {
+        width: 38px;
+        height: 42px;
+        bottom: 15%;
+      }
+    }
+  }
+
+  @for $i from 1 through 6 {
+    span:nth-of-type(6n + #{$i}).lowerLetter2 {
+      color: rgb(225, 225, 225);
+      position: relative;
+      padding: 4px 15px;
+      margin-right: 0;
+      z-index: 2;
+
+      @media (max-width: 768px) {
+        padding: 4px 14px;
+      }
+
+      @media (max-width: 580px) {
+        padding: 4px 10.3px;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        background-image: url("/img/svg/bankiMiddleLevel/bankaCircle#{$i}.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 43px;
+        height: 44px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+
+        @media (max-width: 768px) {
+          width: 38px;
+          height: 39px;
+        }
+
+        @media (max-width: 580px) {
+          width: 29px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

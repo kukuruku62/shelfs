@@ -5,11 +5,11 @@ body {
 }
 
 body {
-  background-image: url("../../public/img/svg/Tiles6.svg");
+  background-image: url("/img/svg/Tiles6.svg");
   background-repeat: repeat;
 
   @media (max-width: 680px) {
-    background-image: url("../../public/img/svg/TilesBackgroundSmall.svg");
+    background-image: url("/img/svg/TilesBackgroundSmall.svg");
   }
 }
 

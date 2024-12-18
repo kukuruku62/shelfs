@@ -3,7 +3,7 @@
 import Image from "next/image";
 import pictureRedact from "../../../public/img/shelf-zel-redakt.webp";
 import pictureTable from "../../../public/img/svg/tablichka-pod-polku.svg";
-
+import { Subtitle } from "./subtitle/subtitle";
 // import pictureTools from "../../../public/img/svg/tools.svg";
 
 // ВКЛЮЧИТЬ ПОДВЕС
@@ -13,7 +13,13 @@ import pictureTable from "../../../public/img/svg/tablichka-pod-polku.svg";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 
-export async function TitlesBlock() {
+interface TitlesBlockProps {
+  title: string;
+  subtitleFirst: string;
+  subtitleSecond: string;
+}
+
+export async function TitlesBlock({ title, subtitleFirst, subtitleSecond }: TitlesBlockProps) {
   return (
     <section>
       <div className={styles.container}>
@@ -22,43 +28,11 @@ export async function TitlesBlock() {
           {/* <Image src={picturePodves} className={styles.podvesImg} alt="" /> */}
 
           <div className={styles.leftPart}>
-            <h1 className={styles.title}>Drevené police do kuchyne</h1>
+            <h1 className={styles.title}>{title}</h1>
             {/* hgroup add */}
             <div className={styles.subtitlesBlock}>
-              <p className={styles.subtitleTop}>
-                <span>V</span>
-                <span>y</span>
-                <span>r</span>
-                <span>o</span>
-                <span>b</span>
-                <span>e</span>
-                <span>n</span>
-                <span>é</span>
-                <span>n</span>
-                <span>a</span>
-                <span>S</span>
-                <span>l</span>
-                <span>o</span>
-                <span>v</span>
-                <span>e</span>
-                <span>n</span>
-                <span>s</span>
-                <span>k</span>
-                <span>u</span>
-              </p>
-              <p className={styles.subtitleMiddle}>
-                <span>R</span>
-                <span>u</span>
-                <span>č</span>
-                <span>n</span>
-                <span>á</span>
-                <span>v</span>
-                <span>ý</span>
-                <span>r</span>
-                <span>o</span>
-                <span>b</span>
-                <span>a</span>
-              </p>
+              <Subtitle text={subtitleFirst} variant="top" />
+              <Subtitle text={subtitleSecond} variant="middle" />
             </div>
 
             {/* <ul>
