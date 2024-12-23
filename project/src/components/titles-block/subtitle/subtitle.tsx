@@ -18,10 +18,12 @@ export async function Subtitle({ text, variant }: SubtitleProps) {
               key={index}
               className={clsx(
                 variant === "top" && {
+                  [styles.gap]: el === " ",
                   [styles.upperLetter]: el === el.toUpperCase() && el !== el.toLowerCase(),
                   [styles.lowerLetter]: el === el.toLowerCase() && el !== el.toUpperCase(),
                 },
                 variant === "middle" && {
+                  [styles.gap]: el === " ",
                   [styles.upperLetter2]: el === el.toUpperCase() && el !== el.toLowerCase(),
                   [styles.lowerLetter2]: el === el.toLowerCase() && el !== el.toUpperCase(),
                 }

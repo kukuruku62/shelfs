@@ -1,12 +1,14 @@
-import { Oldenburg, Inter } from "next/font/google";
+import { Inter, Lobster } from 'next/font/google'
 
-export const oldenburg = Oldenburg({
-  weight: "400",
+export const lobster = Lobster({
+  variable: '--font-lobster',
+  subsets: ["cyrillic"],
   display: "swap",
-  subsets: ["latin"],
-});
+  weight: "400",
+})
 
 export const inter = Inter({
-  subsets: ["latin"],
+  variable: '--font-inter',
+  subsets: ["cyrillic"],
   display: "swap",
-});
+})
