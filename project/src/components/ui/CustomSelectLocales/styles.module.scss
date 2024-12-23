@@ -1,0 +1,112 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+}
+
+.currentLocale {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(53, 53, 53);
+
+  @media (max-width: 780px) {
+    font-size: 16px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+  }
+
+  &_en {
+    &::before {
+      background-image: url("/img/svg/FlagForUnitedKingdom.svg");
+    }
+  }
+
+  &_de {
+    &::before {
+      background-image: url("/img/svg/FlagForGermany.svg");
+    }
+  }
+
+  &_sk {
+    &::before {
+      background-image: url("/img/svg/FlagForSlovakia.svg");
+    }
+  }
+}
+
+.listLocales {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.718);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  border-radius: 5px;
+  border: 0.3px solid rgb(174, 174, 174);
+  align-items: center;
+
+  .item {
+    padding: 10px;
+    width: 100%;
+    align-self: center;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+
+    @media (max-width: 780px) {
+      font-size: 16px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 25px;
+      height: 25px;
+    }
+
+    &_en {
+      &::before {
+        background-image: url("/img/svg/FlagForUnitedKingdom.svg");
+      }
+    }
+
+    &_de {
+      &::before {
+        background-image: url("/img/svg/FlagForGermany.svg");
+      }
+    }
+
+    &_sk {
+      &::before {
+        background-image: url("/img/svg/FlagForSlovakia.svg");
+      }
+    }
+  }
+}

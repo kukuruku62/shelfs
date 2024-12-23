@@ -7,6 +7,11 @@
     }
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Shelf site"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sk {sk Slovakia} other {Unknown}}"
+
+
   }
 }

@@ -7,6 +7,10 @@
     }
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Regal site"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sk {sk Slovakia} other {Unbekannt}}"
   }
 }

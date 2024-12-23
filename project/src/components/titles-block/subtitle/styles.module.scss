@@ -49,7 +49,7 @@
     }
 
     .upperLetter {
-      color: rgb(225, 225, 225);
+      color: rgb(255, 255, 255);
       position: relative;
       padding: 10px 6px;
       margin-right: 1px;
@@ -84,7 +84,7 @@
 
     @for $i from 1 through 9 {
       span:nth-of-type(8n + #{$i}).lowerLetter {
-        color: rgb(225, 225, 225);
+        color: rgb(255, 255, 255);
         position: relative;
         padding: 4px 8px;
         margin-right: 0;
@@ -127,7 +127,7 @@
   }
 
   .upperLetter2 {
-    color: rgb(225, 225, 225);
+    color: rgb(255, 255, 255);
     position: relative;
     padding: 10px 6px;
     margin-right: 10px;
@@ -170,7 +170,7 @@
 
   @for $i from 1 through 6 {
     span:nth-of-type(6n + #{$i}).lowerLetter2 {
-      color: rgb(225, 225, 225);
+      color: rgb(255, 255, 255);
       position: relative;
       padding: 4px 15px;
       margin-right: 0;

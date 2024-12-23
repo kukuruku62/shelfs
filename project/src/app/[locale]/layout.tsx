@@ -4,13 +4,17 @@ import { oldenburg } from "./fonts";
 import "normalize.css";
 import "./globals.css";
 
-import { Header } from "@/components/header/header";
+
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { ReactNode } from "react";
+import Header from "@/components/header/header";
+
+
+
 
 type Props = {
   children: ReactNode;
@@ -31,7 +35,7 @@ export async function generateMetadata({ params }: Omit<Props, "children">) {
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = await params; // Дожидаемся результата
+  const { locale } = await params;
 
   if (!routing.locales.includes(locale as "en" | "de" | "sk")) {
     notFound();

@@ -1,25 +1,28 @@
 "use server";
 import "server-only";
 
-import Image from "next/image";
-import Link from "next/link";
+// import pictureFasade from "../../../public/img/svg/fasad.svg";
+
+
+// import Image from "next/image";
+// import Link from "next/link";
+
+import CustomSelectLocales from "../ui/CustomSelectLocales/CustomSelectLocales";
 import styles from "./styles.module.scss";
 
-import pictureFasade from "../../../public/img/svg/fasad.svg";
+// const listLinks = [
+//   { item: "1", img: pictureFasade, href: "/", title: "Domov" },
+//   { item: "2", img: pictureFasade, href: "/contacts", title: "Kontakt" },
+// ];
 
 
-const listLinks = [
-  { item: "1", img: pictureFasade, href: "/", title: "Domov" },
-  { item: "2", img: pictureFasade, href: "/contacts", title: "Kontakt" },
-];
-
-
-export async function Header() {
+export default async function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.content}>
-          <nav>
+          <CustomSelectLocales />
+          {/* <nav>
             <ul className={styles.list}>
               {listLinks.map(({ item, href, img, title }) => (
                 <li key={item}>
@@ -30,7 +33,7 @@ export async function Header() {
                 </li>
               ))}
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>

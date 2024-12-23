@@ -7,6 +7,10 @@
     }
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Police stranka"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} sk {sk Slovakia} other {Neznámy}}"
+
   }
 }
